@@ -17,16 +17,17 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (savedInstanceState == null){
-            Log.e(TAG, "Bug LongLe");
-        }
-        else {
-            Log.e(TAG, "Welcom LongLe");
-        }
+            if (savedInstanceState == null) {
+                //Sử dụng LogCat
+                Log.e(TAG, "Bug LongLe");
+            } else {
+                Log.e(TAG, "Welcom LongLe");
+            }
+
         setContentView(R.layout.activity_main);
         button = new Button(this);
-        //dong nay loi neu chua khoi tao
-        button.setText("Ahihi Loi roi");
+        button.setText("Long Thị Lệ");
+
         //den day button van chua hien thi len layout
         //Test VCS > Commit
     }

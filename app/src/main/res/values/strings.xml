@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LongLe</string>
+    <string name="get_contacts">GET CONTACTS</string>
 </resources>
